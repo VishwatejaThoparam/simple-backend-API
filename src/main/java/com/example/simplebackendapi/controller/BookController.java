@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin("https://simple-frontend-api.vercel.app")
 @RequestMapping("/api/books")
 public class BookController {
     @Autowired
